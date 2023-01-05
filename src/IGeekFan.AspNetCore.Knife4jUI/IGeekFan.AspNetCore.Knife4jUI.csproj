@@ -5,13 +5,13 @@
 		<Description>Middleware to expose an embedded version of the knife4j-vue from an ASP.NET Core application</Description>
 		<NoWarn>$(NoWarn);1591</NoWarn>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<PackageId>IGeekFan.AspNetCore.Knife4jUI</PackageId>
+		<PackageId>IGeekFan.AspNetCore.Knife4jUI.NS</PackageId>
 		<PackageTags>swagger;documentation;discovery;help;webapi;aspnet;aspnetcore</PackageTags>
 		<PackageProjectUrl>https://github.com/luoyunchong/IGeekFan.AspNetCore.Knife4jUI</PackageProjectUrl>
 		<RepositoryType>git</RepositoryType>
 		<RepositoryUrl>https://github.com/luoyunchong/IGeekFan.AspNetCore.Knife4jUI.git</RepositoryUrl>
 		<RootNamespace>IGeekFan.AspNetCore.Knife4jUI</RootNamespace>
-		<Version>0.0.15</Version>
+		<Version>0.0.15-ns3</Version>
 		<Company />
 		<Authors>igeekfan;xiaoym;</Authors>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -45,7 +45,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<EmbeddedResource Include="knife4j/**/*" />
+		<EmbeddedResource Include="webjars/**/*" />
 		<EmbeddedResource Include="oauth/*" />
 		<EmbeddedResource Include="favicon.ico" />
 		<EmbeddedResource Include="index.html" />
